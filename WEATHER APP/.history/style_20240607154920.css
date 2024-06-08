@@ -1,0 +1,40 @@
+.MainDiv{
+    background-color: #e9f4f9;
+    /* margin: 0 auto; */
+    width: 559px;
+    /* display: flex; */
+    margin-top: 106px;
+    border-radius: 54px;
+    height: 700px;
+    padding: 30px
+}
+ .SearchInput{
+    width: 303px;
+    height: 50px;
+    border-radius: 18px;
+    padding: 10px;
+    border-color: transparent;
+} 
+.SearchDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.btnimg{
+    height: 38px;
+    width: 34px;
+}
+.SearchLogo{
+        border-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.weatherImg{
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+}

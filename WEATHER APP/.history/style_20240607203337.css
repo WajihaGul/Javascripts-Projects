@@ -1,0 +1,93 @@
+.MainDiv{
+    background-color: rgb(154 187 241 / 50%);
+    width: 559px;
+    margin-top: 106px;
+    /* margin-bottom: 106px; */
+    border-radius: 54px;
+    height: 700px;
+    padding: 30px;
+    margin-left:600px;
+    margin-right: 600px; 
+}
+ .SearchInput{
+    width: 303px;
+    height: 50px;
+    border-radius: 18px;
+    padding: 10px;
+    border-color: transparent;
+    margin-right: 10px;
+} 
+.SearchDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* .SecDiv{
+    display: none;
+} */
+.btnimg{
+    height: 38px;
+    width: 34px;
+} 
+.SearchLogo{
+    border-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.temperature h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+   
+}
+.weather img{
+    display: flex;
+    margin: 0 auto;
+    
+}
+.cityName h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -50px;
+    padding: 10px;
+}
+.humidityAndWindSpeed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.humidity,
+.windSpeed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text */
+}
+
+.humidity img,
+.windSpeed img {
+    margin-bottom: 10px; /* Adjust as needed */
+    width: 50px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.humidity h1,
+.windSpeed h1 {
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.humidity h2,
+.windSpeed h2 {
+    font-size: 30px;
+    margin: 0 auto;
+    padding-top: 20px;
+}

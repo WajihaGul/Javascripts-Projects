@@ -1,0 +1,10 @@
+.MainDiv{
+    background-color: #c3deeb;
+    margin: 0 auto;
+    width: 559px;
+    display: flex;
+    margin-top: 106px;
+    border-radius: 54px;
+    height: 700px;
+    padding: 30px
+}

@@ -1,0 +1,27 @@
+.MainDiv{
+    background-color: #c3deeb;
+    /* margin: 0 auto; */
+    width: 559px;
+    /* display: flex; */
+    margin-top: 106px;
+    border-radius: 54px;
+    height: 700px;
+    padding: 30px
+}
+ .SearchInput{
+    width: 303px;
+    height: 50px;
+    border-radius: 18px;
+    padding: 10px;
+    border-color: transparent;
+} 
+.SearchDiv{
+    display: flex;
+    flex-direction: row;
+}
+/* .SearchLogo{
+    height: 22px;
+    /* border-color: transparent; */
+    border-color: transparent;
+    width: 24px;
+} */
